@@ -48,8 +48,17 @@ h2 {
   font-size: 30px;
 }
 
+@media (min-width: 520px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 45px;
+  }
+}
+
 @media (min-width: 768px) {
-  header h1 {
+  h1 {
     font-size: 70px;
   }
 
@@ -87,4 +96,21 @@ hr {
 /* customizing all the direct-child p after the h3 in the education and work experience section  */
 .item-details h3 ~ p {
   margin: 0 0 5px;
+}
+/*-----------------------------------------   profile [.header]   -------------------------*/
+
+header {
+  text-align: center;
+  background-image: url(../images/download.jpg);
+  background-size: cover;
+  color: #f7f7f7;
+  min-height: 265px;
+}
+/* make it a Little smaller */
+header .content-wrap {
+  padding-bottom: 50px;
+}
+
+header h1 {
+  margin-bottom: 30px;
 }
