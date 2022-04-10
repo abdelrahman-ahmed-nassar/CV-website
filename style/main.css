@@ -41,32 +41,40 @@ h2 {
 }
 /*mobile first*/
 h1 {
-  font-size: 50px;
+  font-size: 65px;
 }
 
 header h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 45px;
   padding-bottom: 20px;
 }
 
 @media (min-width: 520px) {
   h1 {
-    font-size: 60px;
+    font-size: 80px;
   }
   h2 {
-    font-size: 45px;
+    font-size: 55px;
+  }
+
+  header h2 {
+    font-size: 50px;
   }
 }
 
 @media (min-width: 768px) {
   h1 {
-    font-size: 70px;
+    font-size: 80px;
   }
 
   h2 {
+    font-size: 65px;
+  }
+
+  header h2 {
     font-size: 60px;
   }
 }
