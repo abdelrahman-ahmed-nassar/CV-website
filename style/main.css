@@ -143,3 +143,17 @@ a:hover {
   text-decoration: none;
   color: #0b0080;
 }
+/*-----------------------------------------------education  ------------------------------*/
+
+.education {
+  background-image: url("../images/joanna-kosinska-unsplash.jpg");
+  background-size: cover;
+  background-position: top right;
+}
+
+@media (max-width: 767px) {
+  .education {
+    background-color: #fdc204;
+    background-image: none;
+  }
+}
