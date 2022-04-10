@@ -7,3 +7,5 @@ I turned the client classic CV into a colorful and beautiful website
 3. work experiece section 
 4. education section 
 5. contact section 
+
+[**live demo**](https://preeminent-heliotrope-899247.netlify.app/) 
