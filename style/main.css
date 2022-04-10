@@ -96,9 +96,6 @@ hr {
 /* customizing the p that after the h3 in the education and work experience section*/
 .item-details h3 ~ p {
   font-style: italic;
-}
-/* customizing all the direct-child p after the h3 in the education and work experience section  */
-.item-details h3 ~ p {
   margin: 0 0 5px;
 }
 /*-----------------------------------------   profile [.header]   -------------------------*/
