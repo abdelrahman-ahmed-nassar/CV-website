@@ -1,0 +1,90 @@
+/*
+Fonts
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*-----------------------------------------Global style -----------------------------*/
+
+html {
+  /* fix the box model */
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+:root {
+  --dark-gray: #343434;
+  --almost-white: #f7f7f7;
+  --blue-dark: #2f3061;
+  --yellow: #ffe66d;
+  --blue-light: #a1c6d7;
+  --light-green: #66806a;
+  --almost-dark: #222;
+}
+
+body {
+  color: var(--dark-gray);
+  font-family: "Montserrat", "system-ui";
+  font-size: 15px;
+  line-height: 1.3;
+}
+/* the typography of the headings*/
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+/*mobile first*/
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+/*th container of each section in each pallet */
+
+.content-wrap {
+  max-width: 800px;
+  /* if the screen is big the width will be 800px but if it get smaller the width will shrink */
+  width: 85%;
+  /* to make the content don't stick in the viewport left side */
+  margin: 0 auto;
+  /*centralize the box*/
+  padding: 60px 0 60px;
+  /*vertical separator*/
+}
+
+/* the cute hr between items */
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 70%;
+  display: inline-block;
+}
+/* customizing the p that after the h3 in the education and work experience section  to make it lok difference */
+.item-details h3 + p {
+  font-style: italic;
+}
+/* customizing all the direct-child p after the h3 in the education and work experience section  */
+.item-details h3 ~ p {
+  margin: 0 0 5px;
+}
