@@ -10,3 +10,4 @@ I turned the client classic CV into a colorful and beautiful website
 
 [**live demo**](https://abdelrhman-ahmed-kamal.github.io/CV-website/)
 
+![screen shot](CV-website.png)
